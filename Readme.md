@@ -17,5 +17,5 @@
 
 1. run pip install -r requirements.txt
 2. from inside the app directory open a terminal window and run uvicorn main:app --reload
-3. in app/src/db.py file add your postgresql database credentials (hostname,user,password) in open_connection function
+3. in app/src/db.py file add your postgresql database credentials (host,user,password) in open_connection function
 4. open postman and start using the api collection
