@@ -8,7 +8,7 @@
 3. creata a postgresql database named fastapi
 4. create category table with column names (id,name)
 5. create products table with column names (id,p_name,price,quantity,imageurl,category_id)
-6. make sure category_id is forign key that references the id column in category table
+6. make sure category_id is a foreign key that references the id column in category table
 7. populate the tables with some data
 
 
