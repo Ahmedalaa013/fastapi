@@ -5,7 +5,7 @@ from psycopg2.extras import RealDictCursor
 
 def open_connection():
     conn = psycopg2.connect(host='localhost', database='fastapi',
-                                user='postgres', password='admin', cursor_factory=RealDictCursor)
+                                user='', password='', cursor_factory=RealDictCursor)
     return conn
 
 
